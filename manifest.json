@@ -1,0 +1,16 @@
+{
+  "name": "Mustapha Gbanie | My Journey, My Story",
+  "short_name": "MGWeb",
+  "start_url": "/MGWeb/",
+  "display": "standalone",
+  "background_color": "#FFF5F8",
+  "theme_color": "#FFE2EB",
+  "description": "Official portfolio and story of Mustapha Gbanie – UI Designer and tech professional from Sierra Leone.",
+  "icons": [
+    {
+      "src": "profile.jpg",
+      "sizes": "600x500",
+      "type": "image/jpeg"
+    }
+  ]
+}

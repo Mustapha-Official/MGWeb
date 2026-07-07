@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block only private/unneeded paths if any
+Disallow: /cgi-bin/
+
+# Link to sitemap
+Sitemap: https://mustapha-official.github.io/MGWeb/sitemap.xml
