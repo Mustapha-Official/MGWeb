@@ -177,7 +177,7 @@ section h3,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  gap: 20px;
 }
 
 .content{
@@ -194,6 +194,7 @@ b span i{
 .about .content{
   text-align: left;
   width: 100%;
+  height: auto;
 }
 
 .about .content a{
@@ -208,9 +209,8 @@ span{color: var(--span);}
   height: auto;
   max-height: 400px;
   width: 100%;
-  border: 2px solid var(--secondary);
+  border: 3px solid var(--secondary);
   border-radius: 10px;
-  overflow: hidden;
 }
 
 .skills h2{color: var(--heading);}
