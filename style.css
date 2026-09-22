@@ -55,6 +55,10 @@ h3{font-size: clamp(18px, 3vw, 25px);}
 p{font-size: clamp(16px, 1.5vw, 22px);}
 p{font-size: clamp(14px, 1vw, 20px);}
 
+.auto{
+  padding: 80px 20px;
+}
+
 /*-- HEADER STYLING --*/
 header{
   background-color: var(--primary);
@@ -203,7 +207,7 @@ span{color: var(--span);}
 .content img{
   height: 300px;
   width: 100%;
-  border: 3px solid var(--secondary);
+  border: 2px solid var(--secondary);
   border-radius: 10px;
   overflow: hidden;
 }
