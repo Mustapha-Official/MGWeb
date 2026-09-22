@@ -1,15 +1,15 @@
 :root{
-  --bg: #FFF5F8;
-  --primary: #FFE2EB;
-  --secondary: #FF4683;
+  --bg: #f5eff7;
+  --primary: #f9e2ff;
+  --secondary: #7c04ac;
   
   --heading: #292929;
   --color: #717171;
   --p-color: #424242;
   --b-color: #FFFFFF;
   
-  --span: #CA356F;
-  --ancient: #FFAEC7;
+  --span: #43045c;
+  --ancient: #cb8ce4;
 }
 
 *{
@@ -116,7 +116,7 @@ header{
 
 .home{
   padding: 120px 20px;
-  background-image: linear-gradient(40deg, #FFD3E3, #E4B1C2);
+  background-image: linear-gradient(40deg, #e7d3ff, #dbb1e4);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -184,7 +184,7 @@ section h3,
 
 b span i{
   animation: blink 1.5s infinite;
-  color: #9B0000;
+  color: #ffffff;
 }
 
 .about .content{
@@ -201,10 +201,10 @@ b span i{
 span{color: var(--span);}
 
 .content img{
-  height: 350px;
+  height: 300px;
   width: 100%;
   border: 3px solid var(--secondary);
-  border-radius: 10px 10px 90% 10px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -281,7 +281,6 @@ footer i{
   color: var(--secondary);
 }
 
-.footer hr{color: #000;}
 /*-- MEDIA QUERY FOR SMALL SCREEN --*/
 @media (max-width: 678px) {
   header{padding: 3px 10px;}
